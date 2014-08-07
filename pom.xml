@@ -103,7 +103,10 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/FixedHeader-${upstream.version}" />
+                                    <fileset dir="${project.build.directory}/FixedHeader-${upstream.version}">
+                                        <include name="css/*"/>
+                                        <include name="js/*"/>
+                                    </fileset>
                                 </move>
                             </target>
                         </configuration>
