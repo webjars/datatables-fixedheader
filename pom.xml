@@ -24,10 +24,10 @@
         <requirejs>
             {
                 "paths": {
-                    "datatable-fixedheader": "datatable-fixedheader"
+                    "datatable-fixedheader": "js/dataTables.fixedHeader"
                 },
                 "shim": {
-                    "datatable-fixedheader": ["jquery,datables"]
+                    "datatable-fixedheader": ["jquery", "datatables"]
                 }
             }
         </requirejs>
