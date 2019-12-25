@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>datatables-fixedheader</artifactId>
-    <version>3.1.6-SNAPSHOT</version>
+    <version>3.1.6</version>
     <name>datatables FixedHeader</name>
     <description>WebJar for datatables FixedHeader</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/datatables-fixedheader</url>
         <connection>scm:git:https://github.com/webjars/datatables-fixedheader.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/datatables-fixedheader.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>datatables-fixedheader-3.1.6</tag>
     </scm>
 
     <dependencies>
